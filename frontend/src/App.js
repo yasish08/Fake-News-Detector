@@ -55,7 +55,7 @@ function App() {
 
     try {
       const res = await axios.post(
-        "https://fake-news-backend-i8rt.onrender.com/predict",
+        "http://localhost:10000/predict",
         { text, url }
       );
 
